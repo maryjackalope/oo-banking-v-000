@@ -1,8 +1,12 @@
 class Transfer
   
   attr_reader :name
-  attr_accessor :balance, :status
+  attr_accessor :transfer
   
-  @staus = open
+  def initialize(name)
+    @name = name
+    @transfer
+  end 
+  
  
 end
