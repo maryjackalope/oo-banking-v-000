@@ -6,6 +6,7 @@ class Transfer
   def initialize(name)
     @name = name
     @transfer
+    @status = pending
   end 
   
  
